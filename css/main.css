@@ -1,0 +1,189 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+	background-color: #FFF;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 0.9em;
+	color: #424549;
+}
+
+h1{
+	font-family: 'Lato', sans-serif;
+	font-size: 3.8em;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #EEE;
+	margin: 0;
+}
+
+h2{
+	font-family: 'Lato', sans-serif;
+	font-size: 2em;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #424549;
+	margin: 0;
+}
+
+h3{
+	font-family: 'Lato', sans-serif;
+	font-size: 1.8em;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #EEE;
+	margin: 0;
+}
+
+h4{
+	font-family: 'Lato', sans-serif;
+	font-size: 1.3em;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #424549;
+	margin: 15px 0 0;
+}
+
+h5{
+	font-family: 'Lato', sans-serif;
+	font-size: 1.3em;
+	text-align: center;
+	color: #848E98;
+	margin: 0.1em;
+}
+
+.sub{
+	padding-top: 50px;
+}
+
+.sub h3{
+	color: #424549;
+}
+
+
+header{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: #838D97;
+	height: 6em;
+	-webkit-box-shadow: 0px .5em 0px 0px rgba(108,119,127,1);
+	   -moz-box-shadow: 0px .5em 0px 0px rgba(108,119,127,1);
+			box-shadow: 0px .5em 0px 0px rgba(108,119,127,1);
+}
+
+#logoWrapper{
+	margin: 1.4em auto 0;
+	height: 100%;
+	width: 200px;
+}
+
+#socialWrapper{
+	display: none;
+}
+
+#fbLogo:hover path{
+	fill: #EEE;
+}
+
+#twitLogo:hover path{
+	fill: #EEE;
+}
+
+.vCenter{
+	height: 100vh;
+	width: 100%;
+	padding: 33vh 0;
+}
+
+section.hero {
+	width: 100%;
+	height: 39em;
+	margin-top: 6em;
+	overflow: hidden;
+	background: url(../img/bg.png) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+section.sub{
+	width: 100%;
+	height: 15em;
+}
+
+
+
+#mc_embed_signup { 
+	background:#fff; 
+	clear:left; 
+	font-size:1.2em;
+	width: 85%;
+	margin: 35px auto 0;
+	text-align: center;
+}
+
+.email{
+	width: 100%;
+	height: 3em;
+	margin: 0 auto;
+}
+
+.button{
+	font-size: 0.9em;
+	font-family: "Open Sans", sans-serif;
+	text-transform: uppercase;
+	margin-top: 10px;
+	background-color: #FFC32F;
+	border: none;
+	border-radius: 5px;
+	width: 100%;
+	height: 2em;
+}
+
+@media only screen and (min-width: 36em){
+	#logoWrapper{
+		margin: 1.4em 1.4em 0;
+		float: left;
+	}
+
+	#socialWrapper{
+		display: block;
+		float: right;
+		margin: 1.8em 0.4em 0 0;
+		width: 100px;
+	}
+
+	#socialWrapper svg{
+		width: 35px;
+		margin: 0 5px;
+		float: left;
+	}
+
+	#mc_embed_signup { 
+		width: 25em;
+	}
+
+	h1{
+		font-size: 5.2em;
+	}
+
+	h3{
+		font-size: 2.5em;
+	}
+}
+
+
+@media only screen and (min-width: 58em){
+	section.hero{
+		height: 45em;
+	}
+}
