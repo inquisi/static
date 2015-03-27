@@ -131,13 +131,13 @@ section.sub{
 	text-align: center;
 }
 
-#mc_embed_signup.email{
+/*#mc_embed_signup.email{
 	width: 100%;
 	height: 3em;
 	margin: 0 auto;
-}
+}*/
 
-#mc_embed_signup.button{
+/*#mc_embed_signup.button{
 	font-size: 0.9em;
 	font-family: "Open Sans", sans-serif;
 	text-transform: uppercase;
@@ -147,7 +147,7 @@ section.sub{
 	border-radius: 5px;
 	width: 100%;
 	height: 2em;
-}
+}*/
 
 @media only screen and (min-width: 36em){
 	#logoWrapper{
