@@ -131,13 +131,13 @@ section.sub{
 	text-align: center;
 }
 
-.email{
+#mc_embed_signup.email{
 	width: 100%;
 	height: 3em;
 	margin: 0 auto;
 }
 
-.button{
+#mc_embed_signup.button{
 	font-size: 0.9em;
 	font-family: "Open Sans", sans-serif;
 	text-transform: uppercase;
