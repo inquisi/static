@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "social-icons";
+  src:url("../fonts/social-icons.eot");
+  src:url("../fonts/social-icons.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/social-icons.woff") format("woff"),
+    url("../fonts/social-icons.ttf") format("truetype"),
+    url("../fonts/social-icons.svg#social-icons") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "social-icons" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="social-"]:before,
+[class*=" social-"]:before {
+  font-family: "social-icons" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.social-pinterest-square:before {
+  content: "\e03a";
+}
+.social-pinterest:before {
+  content: "\e03b";
+}
+.social-linkedin:before {
+  content: "\e03c";
+}
+.social-linkedin-square:before {
+  content: "\e03d";
+}
+.social-rss-square:before {
+  content: "\e03e";
+}
+.social-rss:before {
+  content: "\e03f";
+}
+.social-skype:before {
+  content: "\e040";
+}
+.social-tumblr-square:before {
+  content: "\e041";
+}
+.social-tumblr:before {
+  content: "\e042";
+}
+.social-youtube-square:before {
+  content: "\e043";
+}
+.social-youtube-play:before {
+  content: "\e044";
+}
+.social-youtube:before {
+  content: "\e045";
+}
+.social-instagram:before {
+  content: "\e046";
+}
+.social-gplus-square:before {
+  content: "\e047";
+}
+.social-gplus:before {
+  content: "\e048";
+}
+.social-facebook-square:before {
+  content: "\e049";
+}
+.social-facebook:before {
+  content: "\e04a";
+}
+.social-twitter:before {
+  content: "\e04b";
+}
+.social-twitter-square:before {
+  content: "\e04c";
+}
