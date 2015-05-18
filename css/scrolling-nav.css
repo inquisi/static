@@ -58,7 +58,8 @@ html {
     padding-top: 50px;
     padding-bottom: 15px;
     text-align: center;
-    background: #e6e9ec;
+    background: #FFF;
+    /*background: #e6e9ec;*/
 }
 
 .blog-section{
@@ -66,7 +67,8 @@ html {
     padding-top: 50px;
     padding-bottom: 15px;
     text-align: center;
-    background: #FFF;
+    /*background: #FFF;*/
+    background: #e6e9ec;
 }
 
 .buy-section {

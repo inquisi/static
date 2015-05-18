@@ -50,6 +50,36 @@
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top" ontouchstart="">
 
+    <!-- Modal for Buying -->
+    <section class="buyModal">
+        <div class="modal fade" id="buyModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4>Thank you for your interest!</h4>
+                </div>
+                <div class="modal-body">
+                    <p>We're not quite ready to launch yet, but we'll let you know when we are!</p>
+
+                    <p>All we need is your email below. We won't spam you, we promise.</p>
+                    <div class="mc_embed_signup mc-signup-modal">  
+                        <form action="http://inquisi.us10.list-manage.com/subscribe/post?u=99bc45b8b9fd58a16366b63c7&amp;id=0072bc9f6f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                            <div id="mc_embed_signup_scroll">
+                            
+                            <input type="email" value="" name="EMAIL" class="email form-control" id="mce-EMAIL" placeholder="Email" required>
+                            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                            <div style="position: absolute; left: -5000px;"><input type="text" name="b_99bc45b8b9fd58a16366b63c7_0072bc9f6f" tabindex="-1" value=""></div>
+                            <div class="clear btn-group"><input type="submit" value="Submit" name="subscribe" id="mc-embedded-subscribe" class="button btn btn-info"></div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="container">
@@ -73,9 +103,9 @@
                     <li>
                         <a class="page-scroll" href="#features">Features</a>
                     </li>
-                    <li>
+                    <!-- <li>
                         <a class="page-scroll" href="#pricing">Pricing</a>
-                    </li>
+                    </li> -->
                     <li>
                         <a class="page-scroll" href="#team">Team</a>
                     </li>
@@ -83,7 +113,8 @@
                         <a class="page-scroll" href="http://blog.inquisi.io">Blog</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#buy"><span class="yellow">Buy</span></a>
+                        <!-- <a class="page-scroll" href="#buy"><span class="yellow">Buy</span></a> -->
+                        <a data-toggle="modal" data-target="#buyModal"><span class="yellow">Buy</span></a>
                     </li>
                 </ul>
             </div>
@@ -130,8 +161,7 @@
                 </div>
                 <div id="phoneContainer" class="col-sm-6 col-lg-6 text-center wow fadeInUp" data-wow-duration="1.2s">
                     <div class="phoneMask hidden-xs">
-                        <img src="img/inquisi-video-loader.png" id="video-loader">
-                        <video autoplay loop muted id="demo-video">
+                        <video autoplay loop muted id="demo-video" poster="img/inquisi-video-loader.png">
                         <source src="vid/inquisi-demo.webm"
                                type='video/webm;codecs="vp8, vorbis"' />
                         </video>
@@ -162,59 +192,59 @@
                             </div>
                             <div class="media-body">
                                 <h3 class="media-heading">Engage Learners</h3>
-                                   Give your students a chance to communicate.
+                                   Give each of your students a chance to communicate. Without having to call on a single student, you can reach out to every single student and get their input. With iNQUiSi, it's easy to keep everyone involved and learning.
                             </div>
                         </div>
 
                         <div class="col-xs-12 col-md-6 wow fadeInUp" data-wow-offset="10" data-wow-delay="0.2s">
                             <div class="media-left">
-                                <i class="media-object educ-110"></i>
+                                <i class="media-object educ-048"></i>
                             </div>
                             <div class="media-body">
                                 <h3 class="media-heading">Analyze Data</h3>
-                                Donec eget rhoncus sapien. Integer congue magna aliquet dui dictum dignissim. Aliquam pulvinar volutpat neque, vel dapibus urna suscipit eget. Morbi vel placerat quam. Duis commodo lobortis sem, a pretium augue molestie nec. Nam lectus metus, vulputate in accumsan a, pellentesque at nulla. Integer commodo convallis turpis ac tempus. Nullam interdum sodales varius.
+                                Effortlessly collect data about your course. When you have every student response at your fingertips, it's simple to see what topics students are understanding or struggling with. If a student understands <em>Topic A</em>, do they also understand <em>Topic B</em>? We'll crunch the numbers for you, so you can run your classroom more efficiently.
                             </div>
                         </div>
                 </div> <!-- end row -->
                 <div class="row">
+                        <div class="col-xs-12 col-md-6 wow fadeInUp" data-wow-offset="10" data-wow-delay="0.4s">
+                            <div class="media-left">
+                                <i class="media-object educ-024"></i>
+                            </div>
+                            <div class="media-body">
+                                <h3 class="media-heading">No Hardware</h3>
+                                Nobody wants another piece of hardware. As an instructor, you shouldn't have to fuss with setting up a base-station and registering remote ID codes. With iNQUiSi, getting started is as easy as clicking a button. Students can enroll easily, and you can focus on asking engaging questions.
+                            </div>
+                        </div>
+
                         <div class="col-xs-12 col-md-6 wow fadeInUp" data-wow-offset="10" data-wow-delay="0.3s">
                             <div class="media-left">
                                 <i class="media-object educ-080"></i>
                             </div>
                             <div class="media-body">
                                 <h3 class="media-heading">Mobile Ready</h3>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In finibus fringilla erat sit amet vulputate. Curabitur hendrerit nulla at leo luctus, in placerat diam egestas. Fusce non sodales mi. Nam maximus tincidunt molestie. Donec scelerisque purus est. Nam iaculis fringilla sem in ultrices. Ut fermentum quam vitae sapien maximus, vitae rutrum est suscipit.
-                            </div>
-                        </div>
-
-                        <div class="col-xs-12 col-md-6 wow fadeInUp" data-wow-offset="10" data-wow-delay="0.4s">
-                            <div class="media-left">
-                                <i class="media-object educ-001"></i>
-                            </div>
-                            <div class="media-body">
-                                <h3 class="media-heading">No Hardware</h3>
-                                Donec eget rhoncus sapien. Integer congue magna aliquet dui dictum dignissim. Aliquam pulvinar volutpat neque, vel dapibus urna suscipit eget. Morbi vel placerat quam. Duis commodo lobortis sem, a pretium augue molestie nec. Nam lectus metus, vulputate in accumsan a, pellentesque at nulla. Integer commodo convallis turpis ac tempus. Nullam interdum sodales varius.
+                                Why bother dragging a computer to class when you have one in your pocket? With a mobile-first design, iNQUiSi was built with smartphones in mind. Answering questions should be as easy as pulling out your smartphone and logging in, so now it is.
                             </div>
                         </div>
                 </div> <!-- end row -->
                 <div class="row">
                         <div class="col-xs-12 col-md-6 wow fadeInUp" data-wow-offset="10" data-wow-delay="0.5s">
                             <div class="media-left">
-                                <i class="media-object educ-001"></i>
+                                <i class="media-object educ-066"></i>
                             </div>
                             <div class="media-body">
-                                <h3 class="media-heading">Feature</h3>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In finibus fringilla erat sit amet vulputate. Curabitur hendrerit nulla at leo luctus, in placerat diam egestas. Fusce non sodales mi. Nam maximus tincidunt molestie. Donec scelerisque purus est. Nam iaculis fringilla sem in ultrices. Ut fermentum quam vitae sapien maximus, vitae rutrum est suscipit.
+                                <h3 class="media-heading">BYOD</h3>
+                                What if a student doesn't have a smartphone? With our cloud-based platform, it doesn't matter what device anyone uses. If it has a web browser, it works with iNQUiSi. That makes everyone's lives easier.
                             </div>
                         </div>
 
                         <div class="col-xs-12 col-md-6 wow fadeInUp" data-wow-offset="10" data-wow-delay="0.6s">
                             <div class="media-left">
-                                <i class="media-object educ-001"></i>
+                                <i class="media-object educ-086"></i>
                             </div>
                             <div class="media-body">
                                 <h3 class="media-heading">Pedagogical</h3>
-                                Donec eget rhoncus sapien. Integer congue magna aliquet dui dictum dignissim. Aliquam pulvinar volutpat neque, vel dapibus urna suscipit eget. Morbi vel placerat quam. Duis commodo lobortis sem, a pretium augue molestie nec. Nam lectus metus, vulputate in accumsan a, pellentesque at nulla. Integer commodo convallis turpis ac tempus. Nullam interdum sodales varius.
+                                Pedagogical Research has proven that Classroom Response Systems are good for everyone in the classroom. Students are more engaged and retain information better than traditional methods, and instructors can learn to ask more meaningful questions. <a href="http://cft.vanderbilt.edu/guides-sub-pages/clickers/">See for yourself!</a>
                             </div>
                         </div>
                 </div> <!-- end row -->
@@ -224,7 +254,7 @@
     </section>
 
     <!-- Pricing Section -->
-    <section id="pricing" class="pricing-section">
+   <!--  <section id="pricing" class="pricing-section">
         <div class="container">
             <div class="row">
                 <h1>Pricing</h1>
@@ -319,7 +349,7 @@
                     </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- Team Section -->
     <section id="team" class="team-section">
@@ -387,9 +417,6 @@
                     </p>
                 </div>
             </div>
-
-
-
         </div>
     </section>
 
@@ -404,7 +431,7 @@
     </section>
 
     <!-- Buy Section -->
-    <section id="buy" class="buy-section">
+    <section class="buy-section">
         <div class="container">
             <div class="row">
                 <div class="hidden-xs hidden-sm col-md-2">
@@ -416,10 +443,10 @@
                 </div>
                 <div class="col-xs-6 col-lg-6 footerButtons">
                     <div class="btn-group">
-                          <button type="button" class="btn btn-primary" aria-expanded="false"> Get Started </button>
+                          <button type="button" class="btn btn-primary" aria-expanded="false" data-toggle="modal" data-target="#buyModal"> Get Started </button>
                   </div>
                   <div class="btn-group">
-                          <button type="button" class="btn btn-info" aria-expanded="false"> 
+                          <button type="button" class="btn btn-info" aria-expanded="false" data-toggle="modal" data-target="#buyModal"> 
                           Buy License</button>
                   </div>
                 </div>
@@ -462,23 +489,33 @@
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
     <script type="text/javascript">
-    $('#buyModal').on('show.bs.modal', function (event) {
-          var button = $(event.relatedTarget) // Button that triggered the modal
-          var sub = button.data('subscription')
-          // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
-          var modal = $(this)
-          modal.find('.subscriptionSelect').val(sub).change()
-        });
+    $('#buyModal').modal({
+        backdrop: true,
+        show: false
+    });
 
-    $('.subscriptionSelect').change(function() {
-          var type = ["Semi-Annual", "Annual"]
-          var price = ["30", "50"]
+    $(function() {
+        if (window.location.hash.indexOf("#buy") !== -1) {
+            $("#buyModal").modal('show');
+        }
+    });
+    // $('#buyModal').on('show.bs.modal', function (event) {
+    //       var button = $(event.relatedTarget) // Button that triggered the modal
+    //       var sub = button.data('subscription')
+    //       // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
+    //       var modal = $(this)
+    //       modal.find('.subscriptionSelect').val(sub).change()
+    //     });
 
-          var modal = $('#buyModal')
-          var value = $(this).val()
-          modal.find('.modal-title').text(type[value] + " Subscription")
-          modal.find('#totalLabel').text("Total: $" + price[value])
-        });
+    // $('.subscriptionSelect').change(function() {
+    //       var type = ["Semi-Annual", "Annual"]
+    //       var price = ["30", "50"]
+
+    //       var modal = $('#buyModal')
+    //       var value = $(this).val()
+    //       modal.find('.modal-title').text(type[value] + " Subscription")
+    //       modal.find('#totalLabel').text("Total: $" + price[value])
+    //     });
     </script>
 
     <!-- Load Plugins -->

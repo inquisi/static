@@ -61,6 +61,37 @@ a:focus i{
 	color: #F68B32;
 }
 
+/************ MODAL STYLING ****************/
+.modal{
+	z-index: 5000;
+	margin-top: 55px;
+}
+
+.modal-header h4{
+	margin: 0;
+	font-size: 16px;
+}
+
+.modal-backdrop{
+	bottom: -500%;
+	z-index: 4999;
+	background-color: #414549;
+}
+
+.mc-signup-modal .email{
+	margin-top: 25px;
+}
+
+.mc-signup-modal .btn-group{
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+.mc-signup-modal .btn-group .btn{
+	width: 100%;
+}
+
 /************** BEGIN NAVBAR ****************/
 
 .navbar-toggle{
@@ -108,6 +139,10 @@ a:focus i{
 .inquisiLogo{
 	width: 100px;
 	transition: .3s;
+}
+
+.nav li{
+	cursor: pointer;
 }
 
 .top-nav-collapse .inquisiLogo{
@@ -496,6 +531,9 @@ footer a:hover{
 	body{
 		background-color: #4493CF;
 	}
+	.modal{
+		margin-top: 35px;
+	}
 	.top-nav-collapse{
 		background-color: #838d97 !important;
 		border-bottom: 3px solid #6c777f !important;
@@ -557,6 +595,14 @@ footer a:hover{
 		width: 50.7%;
 		border-radius: 2px;
 		z-index: 3;
+	}
+
+	#demo-video{
+		width: 100%;
+		height: 100%;
+		background: url(../img/inquisi-video-loader.png);
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
 	}
 
 	.teamProfile{
